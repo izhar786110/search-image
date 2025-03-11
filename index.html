@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+   <div id="wrapper" class="bg-slate-800 min-h-screen w-full">
+    <h1>Image Search App</h1>
+   <form action="" class="p-12 flex flex-wrap gap-4 justify-center items-center">
+    <input type="text" placeholder="Search any image"
+    class="w-[270px] border border-1 border-amber-300 rounded-md py-1 px-2 text-white">
+    <button type="submit" class="bg-blue-400 px-2 py-1 rounded-lg font-semibold text-white">Search</button>
+   </form>
+   <!--! Search image -->
+   <div class="results-containainer p-8 flex flex-wrap justify-center items-center gap-8">
+   </div>
+   <div class="loader flex justify-center items-center p-8"></div>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
